@@ -1,0 +1,29 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cjs-module": "^1.5.0",
+    "cucumber": "^5.0.2",
+    "cucumber-pretty": "^1.5.2",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "mocha-multi-reporters": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
